@@ -3,14 +3,9 @@
 # Download and unzip latest human genome and annotation (GRCh38)
 
 wget https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz
-wget https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.gff.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/GCA_000001405.15_GRCh38_full_analysis_set.refseq_annotation.gtf.gz > GRCh38_latest_genomic.gtf.gz
 gunzip GRCh38_latest_genomic.fna.gz
-gunzip GRCh38_latest_genomic.gff.gz
-
-
-# Convert annotation file from GFF to GTF format
-
-
+gunzip GRCh38_latest_genomic.gtf.gz
 
 
 # Index genome with STAR
