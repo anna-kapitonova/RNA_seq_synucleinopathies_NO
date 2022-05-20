@@ -53,13 +53,13 @@ PCA using rlog transformation was performed to check the clustarization of group
 #### Gene enrichment
 Lists og genes with significantly changed expression were obtained and downloaded to Gene Ontology, gsea, kobas databases to find out main signaling pathways upregulated and downregulated in synucleinopathies.
 
-**####NOS1AP gene expression**
+#### NOS1AP gene expression
 Table of normalized counts was obtained after correction for library size for each of four datasets. Normalized counts for NOS1AP were compared in controls and patients with parkinson's disease (Mann-Whitney test) in GraphPrism 8 software (http://www.graphpad.com/faq/viewfaq.cfm?faq=1362).
 
-**####Finding genes of NO signaling differentially expressed in synucleinopathies**
+#### Finding genes of NO signaling differentially expressed in synucleinopathies
 The list of GO terms with 'nitric oxide' keyword was obtained. The list of genes corresponding to these GO terms was obtained. Common genes between the one and the list of differentially expressed genes resulted from each of four datasets, were found.
 
-**####Finding intersections in DE in different brain tissues**
+#### Finding intersections in DE in different brain tissues
 Venn's diagram (r script) was constructed to reveal common genes with differential expression between differenent brain tissues. 
 
 ### Results
