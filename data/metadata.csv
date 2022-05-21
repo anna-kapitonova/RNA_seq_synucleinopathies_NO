@@ -1,0 +1,189 @@
+ID;disease;tissue;sex;age;GC_content;SNCA;LRRK2;GBA;PRKN;Sample_id;
+SRR2015713;control;BA9 prefrontal cortex;M;73;good;;;;;C_2;
+SRR2015714;control;BA9 prefrontal cortex;M;91;middle;;;;;C_3;
+SRR2015715;control;BA9 prefrontal cortex;M;82;good;;;;;C_4;
+SRR2015716;control;BA9 prefrontal cortex;M;97;good;;;;;C_5;
+SRR2015717;control;BA9 prefrontal cortex;M;86;good;;;;;C_6;
+SRR2015718;control;BA9 prefrontal cortex;M;91;good;;;;;C_8;
+SRR2015719;control;BA9 prefrontal cortex;M;81;middle;;;;;C_9;
+SRR2015720;control;BA9 prefrontal cortex;M;79;good;;;;;C_10;
+SRR2015721;control;BA9 prefrontal cortex;M;63;middle;;;;;C_11;
+SRR2015722;control;BA9 prefrontal cortex;M;66;good;;;;;C_12;
+SRR2015723;control;BA9 prefrontal cortex;M;69;good;;;;;C_13;
+SRR2015724;control;BA9 prefrontal cortex;M;79;good;;;;;C_14;
+SRR2015725;control;BA9 prefrontal cortex;M;61;good;;;;;C_15;
+SRR2015726;control;BA9 prefrontal cortex;M;58;middle;;;;;C_16;
+SRR2015727;control;BA9 prefrontal cortex;M;70;good;;;;;C_17;
+SRR2015728;control;BA9 prefrontal cortex;M;66;good;;;;;C_18;
+SRR2015729;control;BA9 prefrontal cortex;M;73;middle;;;;;C_19;
+SRR2015730;control;BA9 prefrontal cortex;M;60;good;;;;;C_20;
+SRR2015731;control;BA9 prefrontal cortex;M;76;good;;;;;C_21;
+SRR2015732;control;BA9 prefrontal cortex;M;61;middle;;;;;C_22;
+SRR2015733;control;BA9 prefrontal cortex;M;62;middle;;;;;C_23;
+SRR2015734;control;BA9 prefrontal cortex;M;69;good;;;;;C_24;
+SRR2015735;control;BA9 prefrontal cortex;M;61;good;;;;;C_25;
+SRR2015736;control;BA9 prefrontal cortex;M;88;middle;;;;;C_26;
+SRR2015737;control;BA9 prefrontal cortex;M;93;middle;;;;;C_29;
+SRR2015738;control;BA9 prefrontal cortex;M;53;good;;;;;C_0031;
+SRR2015739;control;BA9 prefrontal cortex;M;57;good;;;;;C_0032;
+SRR2015740;control;BA9 prefrontal cortex;M;46;good;;;;;C_0035;
+SRR2015741;control;BA9 prefrontal cortex;M;57;good;;;;;C_0038;
+SRR2015742;control;BA9 prefrontal cortex;M;80;good;;;;;C_0039;
+SRR2015743;control;BA9 prefrontal cortex;M;74;middle;;;;;C_0050;
+SRR2015744;control;BA9 prefrontal cortex;M;69;good;;;;;C_0053;
+SRR2015745;control;BA9 prefrontal cortex;M;76;good;;;;;C_0060;
+SRR2015746;control;BA9 prefrontal cortex;M;78;good;;;;;C_0061;
+SRR2015747;control;BA9 prefrontal cortex;M;87;good;;;;;C_0062;
+SRR2015748;control;BA9 prefrontal cortex;M;86;good;;;;;C_0065;
+SRR2015749;control;BA9 prefrontal cortex;M;54;good;;;;;C_0069;
+SRR2015750;control;BA9 prefrontal cortex;M;68;good;;;;;C_0070;
+SRR2015751;control;BA9 prefrontal cortex;M;52;good;;;;;C_0075;
+SRR2015752;control;BA9 prefrontal cortex;M;46;good;;;;;C_0076;
+SRR2015753;control;BA9 prefrontal cortex;M;55;good;;;;;C_0081;
+SRR2015754;control;BA9 prefrontal cortex;M;57;good;;;;;C_0082;
+SRR2015755;control;BA9 prefrontal cortex;M;66;good;;;;;C_0083;
+SRR2015756;control;BA9 prefrontal cortex;M;64;good;;;;;C_0087;
+SRR2015757;PD;BA9 prefrontal cortex;M;74;middle;;;;;P_3;
+SRR2015758;PD;BA9 prefrontal cortex;M;83;middle;;;;;P_6;
+SRR2015759;PD;BA9 prefrontal cortex;M;80;good;;;;;P_12;
+SRR2015760;PD;BA9 prefrontal cortex;M;83;good;;;;;P_13;
+SRR2015761;PD;BA9 prefrontal cortex;M;80;middle;;;;;P_14;
+SRR2015762;PD;BA9 prefrontal cortex;M;84;middle;;;;;P_15;
+SRR2015763;PD;BA9 prefrontal cortex;M;88;good;;;;;P_16;
+SRR2015764;PD;BA9 prefrontal cortex;M;81;good;;;;;P_18;
+SRR2015765;PD;BA9 prefrontal cortex;M;77;good;;;;;P_19;
+SRR2015766;PD;BA9 prefrontal cortex;M;64;good;;;;;P_20;
+SRR2015767;PD;BA9 prefrontal cortex;M;85;good;;;;;P_21;
+SRR2015768;PD;BA9 prefrontal cortex;M;94;good;;;;;P_22;
+SRR2015769;PD;BA9 prefrontal cortex;M;80;middle;;;;;P_23 - failed QC;
+SRR2015770;PD;BA9 prefrontal cortex;M;85;middle;;;;;P_26;
+SRR2015771;PD;BA9 prefrontal cortex;M;75;good;;;;;P_27;
+SRR2015772;PD;BA9 prefrontal cortex;M;74;middle;;;;;P_28;
+SRR2015773;PD;BA9 prefrontal cortex;M;89;middle;;;;;P_29;
+SRR2015774;PD;BA9 prefrontal cortex;M;66;good;;;;;P_30;
+SRR2015775;PD;BA9 prefrontal cortex;M;65;good;;;;;P_31;
+SRR2015776;PD;BA9 prefrontal cortex;M;85;bad;;;;;P_33;
+SRR2015777;PD;BA9 prefrontal cortex;M;64;good;;;;;P_0034;
+SRR2015778;PD;BA9 prefrontal cortex;M;64;good;;;;;P_0063;
+SRR2015779;PD;BA9 prefrontal cortex;M;75;middle;;;;;P_0126;
+SRR2015780;PD;BA9 prefrontal cortex;M;68;good;;;;;P_0130;
+SRR2015781;PD;BA9 prefrontal cortex;M;95;good;;;;;P_0132;
+SRR2015782;PD;BA9 prefrontal cortex;M;74;good;;;;;P_0133;
+SRR2015783;PD;BA9 prefrontal cortex;M;68;good;;;;;P_0134;
+SRR2015784;PD;BA9 prefrontal cortex;M;79;good;;;;;P_0135;
+SRR2015785;PD;BA9 prefrontal cortex;M;70;good;;;;;P_0136;
+;;;;;;;;;;;
+SRR9703414;MSA;Putamen;F;63;bad;;;;;MSA1-1;rep1
+SRR9703415;MSA;Putamen;F;63;bad;;;;;MSA1-2;rep2
+SRR9703416;MSA;Putamen;F;63;middle;;;;;MSA2-1;rep1
+SRR9703417;MSA;Putamen;F;63;middle;;;;;MSA2-2;rep2
+SRR9703418;MSA;Putamen;F;61;bad;;;;;MSA3-1;rep1
+SRR9703419;MSA;Putamen;F;61;bad;;;;;MSA3-2;rep2
+SRR9703420;MSA;Putamen;F;69;bad;;;;;MSA4-1;rep1
+SRR9703421;MSA;Putamen;F;69;bad;;;;;MSA4-2;rep2
+SRR9703422;MSA;Putamen;M;66;middle;;40293626G>A ;;;MSA5-1;rep1
+SRR9703423;MSA;Putamen;M;66;middle;;40293626G>A ;;;MSA5-2;rep2
+SRR9703424;MSA;Putamen;M;74;bad;;;;;MSA6-1;rep1
+SRR9703425;MSA;Putamen;M;74;bad;;;;;MSA6-2;rep2
+SRR9703426;MSA;Putamen;F;59;middle;;;;;MSA7-1;rep1
+SRR9703427;MSA;Putamen;F;59;middle;;;;;MSA7-2;rep2
+SRR9703428;MSA;Putamen;M;56;bad;;;;;MSA8-1;rep1
+SRR9703429;MSA;Putamen;M;56;bad;;;;;MSA8-2;rep2
+SRR9703430;MSA;Putamen;F;56;bad;;;;;MSA9-1;rep1
+SRR9703431;MSA;Putamen;F;56;bad;;;;;MSA9-2;rep2
+SRR9703432;MSA;Putamen;F;70;bad;;;;;MSA10-1;rep1
+SRR9703433;MSA;Putamen;F;70;bad;;;;;MSA10-2;rep2
+SRR15527815;control;Putamen;M;NA;middle;;;;; Sample_145_Subject_1_Control;
+SRR15527816;control;Putamen;F;NA;middle;;;;161348405G>A;Sample_146_Subject_2_Control;
+SRR15527817;control;Putamen;F;NA;middle;;;;;Sample_147_Subject_3_Control;
+SRR15527822;control;Putamen;M;NA;middle;;;;;Sample_152_Subject_8_Control;
+SRR15527824;control;Putamen;M;NA;middle;;;;;Sample_154_Subject_10_Control;
+SRR15527825;control;Putamen;M;NA;middle;;40235634T>C;;;Sample_155_Subject_11_Control;
+SRR15527827;control;Putamen;M;NA;middle;;;;;Sample_157_Subject_13_Control;
+SRR15527829;control;Putamen;F;NA;middle;;;;;Sample_159_Subject_15_Control;
+SRR15527831;control;Putamen;M;NA;middle;;;;;Sample_161_Subject_17_Control;
+SRR15527833;control;Putamen;F;NA;middle;;;;161349208TATCTAT>TAT;Sample_163_Subject_19_Control;
+SRR15527834;control;Putamen;F;NA;middle;;;;;Sample_164_Subject_20_Control;
+SRR15527836;control;Putamen;F;NA;middle;;;;;Sample_166_Subject_22_Control;
+;;;;;;;;;;;
+SRR14808188;control;anterior cingulate cortex;M;68;middle;;;;;C036;
+SRR14808189;control;anterior cingulate cortex;M;68;bad;;;;;C048;
+SRR14808190;DLB;anterior cingulate cortex;M;84;middle;;;;;PD060;
+SRR14808191;DLB;anterior cingulate cortex;M;63;good;;;;;PD115;
+SRR14808192;DLB;anterior cingulate cortex;M;76;good;;;;;PD163;
+SRR14808193;DLB;anterior cingulate cortex;M;78;good;;;;161349208TTATCTAT>TTAT;PD294;
+SRR14808194;DLB;anterior cingulate cortex;M;77;middle;;;;;PD332;
+SRR14808195;PDD;anterior cingulate cortex;M;68;bad;;;;;PD341;
+SRR14808196;PDD;anterior cingulate cortex;M;69;middle;;;;;PD366;
+SRR14808197;PD;anterior cingulate cortex;F;72;middle;;;;;PD413;
+SRR14808198;PDD;anterior cingulate cortex;F;78;middle;;;;;PD415;
+SRR14808199;PD;anterior cingulate cortex;F;85;middle;;;;;PD416;
+SRR14808200;PDD;anterior cingulate cortex;F;89;good;;;;;PD501;
+SRR14808201;PD;anterior cingulate cortex;F;86;middle;;;;;PD523;
+SRR14808202;PDD;anterior cingulate cortex;M;80;middle;;;;;PD531;
+SRR14808203;PDD;anterior cingulate cortex;M;75;middle;;;;;PD563;
+SRR14808204;DLB;anterior cingulate cortex;M;63;middle;;;;;PD566;
+SRR14808205;PD;anterior cingulate cortex;F;93;middle;;;;;PD666;
+SRR14808206;PDD;anterior cingulate cortex;M;86;good;;;;;PD678;
+SRR14808207;PD;anterior cingulate cortex;F;83;middle;;;;;PD683;
+SRR14808208;DLB;anterior cingulate cortex;M;67;middle;;;;;PD706;
+SRR14808209;PD;anterior cingulate cortex;M;81;bad;;;;;PD732;
+SRR14808210;PD;anterior cingulate cortex;M;83;middle;;;;;PD747;
+SRR14808211;control;anterior cingulate cortex;M;58;bad;;;;;PDC05;
+SRR14808212;control;anterior cingulate cortex;M;65;middle;;;;;PDC22;
+SRR14808213;control;anterior cingulate cortex;M;90;bad;;;;;PDC34;
+SRR14808214;control;anterior cingulate cortex;F;92;middle;;;;;PDC87;
+SRR14808215;control;anterior cingulate cortex;M;85;middle;;;;;PDC91;
+;;;;;;;;;;;
+SRR7218297;control;SNc;M;79;bad;;;;;Case10;rep1
+SRR7218298;control;SNc;M;79;middle;;;;;Case10;rep2
+SRR7218299;control;SNc;M;82;bad;;;;;Case11;
+SRR7218300;control;VTA;M;82;bad;;;;;Case11;
+SRR7218301;control;SNc;M;85;middle;;;;;Case12;rep1
+SRR7218302;control;SNc;M;85;middle;;;;;Case12;rep2
+SRR7218303;control;SNc;M;85;good;;;;;Case12;rep3
+SRR7218304;control;SNc;M;86;middle;;;;;Case13;
+SRR7218305;control;SNc;M;88;good;;;;;Case14;
+SRR7218306;control;VTA;M;88;good;;;;;Case14;
+SRR7218307;control;SNc;M;88;good;;;;;Case15;
+SRR7218308;control;VTA;M;88;middle;;;;;Case15;
+SRR7218309;control;SNc;M;96;good;;;;;Case16;
+SRR7218310;control;VTA;M;96;good;;;;;Case16;
+SRR7218311;control;SNc;M;98;good;;;;;Case17;rep1
+SRR7218312;control;SNc;M;98;good;;;;;Case17;rep2
+SRR7218313;control;SNc;M;98;good;;;;;Case17;rep3
+SRR7218314;control;SNc;M;98;good;;;;;Case17;rep4
+SRR7218315;control;SNc;M;98;middle;;;;;Case17;rep5
+SRR7218316;control;VTA;M;98;good;;;;;Case17;rep1
+SRR7218317;control;VTA;M;98;good;;;;;Case17;rep2
+SRR7218318;control;VTA;M;98;middle;;;;;Case17;rep3
+SRR7218319;control;SNc;M;102;good;;;;;Case18;rep1
+SRR7218320;control;SNc;M;102;good;;;;;Case18;rep2
+SRR7218321;control;VTA;M;102;good;;;;;Case18;
+SRR7218322;control;SNc;M;45;good;;;;;Case1;
+SRR7218323;control;VTA;M;48;good;;;;;Case2;
+SRR7218324;control;SNc;M;50;good;;;;;Case3;rep1
+SRR7218325;control;SNc;M;50;good;;;;;Case3;rep2
+SRR7218326;control;VTA;M;50;good;;;;;Case3;rep1
+SRR7218327;control;VTA;M;50;good;;;;;Case3;rep2
+SRR7218328;control;SNc;M;51;middle;;;;;Case4;
+SRR7218329;control;VTA;M;51;middle;;;;;Case4;
+SRR7218330;control;VTA;M;53;good;;;;;Case5;
+SRR7218331;control;SNc;M;55;good;;;;;Case6;rep1
+SRR7218332;control;SNc;M;55;good;;;;;Case6;rep2
+SRR7218333;control;VTA;M;55;middle;;;;;Case6;
+SRR7218334;control;SNc;M;55;good;;;;;Case7;
+SRR7218335;control;VTA;M;55;good;;;;;Case7;
+SRR7218336;control;SNc;M;58;bad;;;;;Case8;
+SRR7218337;control;VTA;M;58;bad;;;;;Case8;
+SRR7218338;control;SNc;M;59;middle;;;;;Case9;
+SRR7218339;control;VTA;M;59;bad;;;;;Case9;
+SRR13226963;PD;substantia nigra pars compacta;M;67;bad;;;;;Case19;
+SRR13226964;PD;SNc;M;70;bad;;;;;Case20;
+SRR13226965;PD;SNc;F;77;bad;;;;;Case23;
+SRR13226966;PD;SNc;M;71;bad;;;;;Case21;
+SRR13226967;PD;SNc;M;74;bad;;;;;Case22;
+SRR13226968;PD;ventral tegmental area;M;67;bad;;;;;Case19;
+SRR13226969;PD;VTA;F;77;bad;;;;;Case23;
+SRR13226970;PD;VTA;M;71;bad;;;;;Case21;
+SRR13226971;PD;VTA;M;74;bad;;;;;Case22;
