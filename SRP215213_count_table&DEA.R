@@ -94,12 +94,13 @@ EnhancedVolcano(resLFC2,
                 lab = row.names(resLFC2), 
                 x = 'log2FoldChange', 
                 y = 'svalue', 
+                ylab = bquote(~Log[10]~ 'S'),
+                title = ' ', 
+                subtitle = ' ', 
+                caption = ' ',
                 pCutoff = 0.05, 
-                FCcutoff = 1.0, 
-                titleLabSize = 8, 
-                subtitleLabSize = 8, 
-                captionLabSize = 8, 
-                axisLabSize = 8, 
+                FCcutoff = 1.0,  
+                axisLabSize = 15, 
                 legendLabSize = 8, 
                 legendIconSize = 1.0, 
                 legendPosition = 'none')
@@ -109,7 +110,13 @@ EnhancedVolcano(resLFC2,
 sorted = resLFC2[with(resLFC2, order(svalue, -log2FoldChange)), ]
 sorted.df = data.frame("id"=rownames(sorted),sorted)
 genes = subset(sorted.df, svalue<0.005)
-write.table(genes, file="result213215", sep="\t", col.names=NA, quote=FALSE)
+write.table(genes, file="DE_genes_total_213215", sep="\t", col.names=NA, quote=FALSE)
+
+#Saves upregulated and downregulated genes
+genes_up = subset(genes, log2FoldChange > 0)
+write.table(genes_up, file="genes_up_213215", sep="\t", col.names=NA, quote=FALSE)
+genes_down = subset(genes, log2FoldChange < 0)
+write.table(genes_down, file="genes_down_213215", sep="\t", col.names=NA, quote=FALSE)                             
 
 #saves normalized counts 
 nc = counts(DataSetAnalysis, normalized = TRUE)
@@ -123,8 +130,9 @@ EnhancedVolcano(resLFC,
                 lab = lab_italics, 
                 x = 'log2FoldChange', 
                 y = 'svalue', 
+                ylab = bquote(~Log[10]~ 'S'),
                 selectLab = selectLab_italics, 
-                title = 'Multiple system atrophy, putamen', 
+                title = ' ', 
                 subtitle = ' ', 
                 caption = ' ', 
                 pCutoff = 0.005, 
