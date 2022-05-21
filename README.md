@@ -18,9 +18,9 @@ The following **tasks** were set in order to achive the goal:
 2. To compare sets of differentially expressed genes in different brain regions of patients with synucleinopathies
 
 The **available data** at the start of the project were four open RNA-seq datasets of raw reads from different brain tissues of patients with synucleinopathies: 
-- SRP058181 - Brodmann area, prefrontal cortex, 42 control, 29 Parkinson's disease
+- SRP058181 - Brodmann area, prefrontal cortex, 42 control, 29 Parkinson's disease (Dumitriu et al., 2016)
 - SPR148970 - substantia nigra and ventral tegmental area midbrain dopamine neurons, 18 control, 5 Parkinson’s disease
-- SRP215213 - putamen, 12 control, 10 multiple system atrophy
+- SRP215213 - putamen, 12 control, 10 multiple system atrophy (data not published)
 - SRP324001 - anterior cingulate cortex, 7 control, 7 dementia with Lewy bodies, 7 Parkinson’s disease, 7 Parkinson’s disease with dementia
 
 
@@ -77,3 +77,4 @@ Venn's diagram (R script) was used to estimate the number of common genes with d
 
 ### Literature
 1. Coon, E. A., & Singer, W. (2020). Synucleinopathies. Continuum (Minneapolis, Minn.), 26(1), 72–92. https://doi.org/10.1212/CON.0000000000000819
+2. Dumitriu, A., Golji, J., Labadorf, A. T., Gao, B., Beach, T. G., Myers, R. H., Longo, K. A., & Latourelle, J. C. (2016). Integrative analyses of proteomics and RNA transcriptomics implicate mitochondrial processes, protein folding pathways and GWAS loci in Parkinson disease. BMC medical genomics, 9, 5. https://doi.org/10.1186/s12920-016-0164-y
