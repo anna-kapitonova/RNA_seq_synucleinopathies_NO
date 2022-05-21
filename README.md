@@ -14,16 +14,16 @@ Synucleinopathies are neurodegenerative diseases that include Parkinson's diseas
 
 
 ### Aim, tasks and data
-The **aim** of this project was to to evaluate changes in expression level of NO-signaling genes in brain samples from patients with synucleinopathies.
+The **aim** of this project was to evaluate changes in expression level of NO-signaling genes in brain samples from patients with synucleinopathies.
 
-The following **tasks** were set in order to achive the goal:
+The following **tasks** were set in order to achieve the goal:
 
 1. To assess differential expression of NOS1AP and other genes of NO-signaling in brain tissues of patients with synucleinopathies
 2. To compare sets of differentially expressed genes in different brain regions of patients with synucleinopathies
 
 The **available data** at the start of the project were four open RNA-seq datasets of raw reads from different brain tissues of patients with synucleinopathies: 
 - SRP058181 - Brodmann area, prefrontal cortex, 42 control, 29 Parkinson's disease (Dumitriu *et al.*, 2016)
-- SPR148970 - substantia nigra and ventral tegmental area midbrain dopamine neurons, 18 control, 5 Parkinson’s disease (Aguila *et al.*, 2021)
+- SPR148970 - *substantia nigra* and ventral tegmental area midbrain dopamine neurons, 18 control, 5 Parkinson’s disease (Aguila *et al.*, 2021)
 - SRP215213 - putamen, 12 control, 10 multiple system atrophy (data not published)
 - SRP324001 - anterior cingulate cortex, 7 control, 7 dementia with Lewy bodies, 7 Parkinson’s disease, 7 Parkinson’s disease with dementia (Feleke *et al.*, 2021)
 
@@ -38,7 +38,7 @@ Raw reads in fastq format were downloaded to the server with SRA toolkit. The qu
 [1_download_data_and_QC.sh](./1_download_data_and_QC.sh)
 
 #### Alignment
-STAR alignment against GRCh38 human genome was performed with resulting bam files and genecounts option:
+STAR alignment against GRCh38 human genome was performed with resulting bam files and GeneCounts option:
 
 [2_alignment_to_reference.sh](./2_alignment_to_reference.sh)
 
@@ -48,10 +48,10 @@ mpileup was computed for sorted .bam files against GRCh38 human genome, followed
 [3_variant_calling.sh](./3_variant_calling.sh)
 
 #### Constructing table with counts
-For each dataset a table with counts was constructed with R script from ReadsPerGene.out.tab files obtained after STAR alignment. Second columns corresponding to counts for non-stranded libraries were used. Two protocols were provided for technical replicates (if any), where they were summarized or averaged.
+For each dataset, a table with counts was constructed with R script from ReadsPerGene.out.tab files obtained after STAR alignment. Second columns corresponding to counts for non-stranded libraries were used. Two protocols were provided for technical replicates (if any), where they were summarized or averaged.
 
 #### PCA & DE analysis
-PCA using rlog transformation was performed to check the clustarization of groups and quality of replicates. DEseq2 was used to perform differential expression analysis. Lof2FoldChange was corrected with apeglm, thresholds for significant DE: s-value < 0.005, |lfc| > 1.
+PCA using rlog transformation was performed to check the clustarization of groups and quality of replicates. DESeq2 was used to perform differential expression analysis. Log2FoldChange was corrected with apeglm, thresholds for significant DE: s-value < 0.005, |lfc| > 1.
 
 - [SRP058181_count_table&DEA.R](./SRP058181_count_table&DEA.R)
 - [SRP215213_count_table&DEA.R](./SRP215213_count_table&DEA.R)
@@ -62,7 +62,7 @@ PCA using rlog transformation was performed to check the clustarization of group
 Lists of genes with significantly changed expression were obtained and uploaded to Gene Ontology, gsea and kobas databases to find out main signaling pathways upregulated and downregulated in synucleinopathies.
 
 #### NOS1AP gene expression
-Table of normalized counts was obtained after correction for library size for each of four datasets. Normalized counts for NOS1AP were compared in controls and patients with Parkinson's disease (Mann-Whitney test) in GraphPrism 8 software (http://www.graphpad.com/faq/viewfaq.cfm?faq=1362).
+The table with normalized counts was obtained after correction for library size for each of four datasets. Normalized counts for NOS1AP were compared in controls and patients with Parkinson's disease (Mann-Whitney test) in GraphPad Prism 8 software (http://www.graphpad.com/faq/viewfaq.cfm?faq=1362).
 
 #### Finding genes of NO signaling differentially expressed in synucleinopathies
 The list of GO terms with 'nitric oxide' keyword was used to obtain the list of associated genes. Common positions between differentially expressed genes and NO-associated genes were found.
@@ -71,7 +71,7 @@ The list of GO terms with 'nitric oxide' keyword was used to obtain the list of 
 Venn's diagram (R script) was used to estimate the number of common genes with differential expression between differenent brain tissues. 
 
 ### Results
-1. Expression of NOS1AP does not differ significantly in brain tissues of patients with synucleinopathies, althoug there is a tendency to decrease in prefrontal cortex (p=0.08) and substantia nigra (p=0.09) of patient with Parkinson's disease.
+1. Expression of NOS1AP does not differ significantly in brain tissues of patients with synucleinopathies, although there is a decreasing tendency in prefrontal cortex (p = 0.08) and substantia nigra (p = 0.09) of patient with Parkinson's disease.
 
 ![](./plots/NOS1AP_expression.png)
 
@@ -79,7 +79,7 @@ Venn's diagram (R script) was used to estimate the number of common genes with d
 
 ![](./plots/volcano_NO_genes.png)
 
-3. Patterns of DEGs differ tissue- and disease-specifically,  only a few common DEGs were found.
+3. Patterns of DEGs differ tissue- and disease-specifically,  only a few common genes were found.
 
 ![](./plots/venn_PD.png)
 
