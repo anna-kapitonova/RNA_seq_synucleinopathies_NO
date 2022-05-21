@@ -76,4 +76,6 @@ Venn's diagram (R script) was used to estimate the number of common genes with d
 ![](./plots/venn_PD.png)
 
 ### Literature
-1. Coon, E. A., & Singer, W. (2020). Synucleinopathies. Continuum (Minneapolis, Minn.), 26(1), 72–92. https://doi.org/10.1212/CON.0000000000000819
+1. Aguila, J., Cheng, S., Kee, N., Cao, M., Wang, M., Deng, Q., & Hedlund, E. (2021). Spatial RNA Sequencing Identifies Robust Markers of Vulnerable and Resistant Human Midbrain Dopamine Neurons and Their Expression in Parkinson's Disease. Frontiers in molecular neuroscience, 14, 699562. https://doi.org/10.3389/fnmol.2021.699562
+2. Coon, E. A., & Singer, W. (2020). Synucleinopathies. Continuum (Minneapolis, Minn.), 26(1), 72–92. https://doi.org/10.1212/CON.0000000000000819
+3. Feleke, R., Reynolds, R. H., Smith, A. M., Tilley, B., Taliun, S., Hardy, J., Matthews, P. M., Gentleman, S., Owen, D. R., Johnson, M. R., Srivastava, P. K., & Ryten, M. (2021). Cross-platform transcriptional profiling identifies common and distinct molecular pathologies in Lewy body diseases. Acta neuropathologica, 142(3), 449–474. https://doi.org/10.1007/s00401-021-02343-x
