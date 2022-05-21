@@ -1,9 +1,13 @@
 ## Analysis of differential expression of genes involved in NO-signaling in synucleinopathies
-Authors: 
+### 2022 Spring project, Bioinformatics Institute
 
-- Anna Kapitonova
-- Alexandra Livanova 
-- Stanislav Bondarev
+Students: 
+
+- Anna Kapitonova, Moscow State University
+- Alexandra Livanova, Saint-Petersburg State University 
+
+Supervisor:
+- Stanislav Bondarev, Saint-Petersburg State University
 
 ### Introduction
 Synucleinopathies are neurodegenerative diseases that include Parkinson's disease, multiple system atrophy, and dementia with Lewy bodies (Coon & Singer, 2020). During pathogenesis, protein aggregates, in particular, alpha-synuclein, are formed in brain neurons, which leads to loss of control of movements in patients. According to bioinformatic predictions, NOS1AP is also capable of forming protein aggregates in neurons and directly interacts with alpha-synuclein. Based on this, the hypothesis emerged, that NO signaling could be involved in the pathogenesis of synucleinopathies.
