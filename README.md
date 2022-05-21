@@ -67,11 +67,15 @@ The list of GO terms with 'nitric oxide' keyword was used to obtain the list of 
 Venn's diagram (R script) was used to estimate the number of common genes with differential expression between differenent brain tissues. 
 
 ### Results
-1. Some NO-signaling genes are differentially expressed in patients with synucleinopathies.
+1. Expression of NOS1AP does not differ significantly in brain tissues of patients with synucleinopathies, althoug there is a tendency to decrease in prefrontal cortex (p=0.08) and substantia nigra (p=0.09) of patient with Parkinson's disease.
+
+![](./plots/NOS1AP_expression.png)
+
+2. Some NO-signaling genes are differentially expressed in patients with synucleinopathies.
 
 ![](./plots/volcano_NO_genes.png)
 
-2. Patterns of DEGs differ tissue- and disease-specifically,  only a few common DEGs were found.
+3. Patterns of DEGs differ tissue- and disease-specifically,  only a few common DEGs were found.
 
 ![](./plots/venn_PD.png)
 
