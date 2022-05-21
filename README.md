@@ -69,6 +69,8 @@ The list of GO terms with 'nitric oxide' keyword was used to obtain the list of 
 #### Finding intersections in DE in different brain tissues
 Venn's diagram (R script) was used to estimate the number of common genes with differential expression between differenent brain tissues. 
 
+[venn_diagrams.R](./venn_diagrams.R)
+
 ### Results
 1. Expression of NOS1AP does not differ significantly in brain tissues of patients with synucleinopathies, although there is a decreasing tendency in prefrontal cortex (p = 0.08) and substantia nigra (p = 0.09) of patient with Parkinson's disease.
 
