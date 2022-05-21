@@ -1,4 +1,20 @@
-ID;disease;tissue;sex;age;GC_content;SNCA;LRRK2;GBA;PRKN;Sample_id;
+#####################
+# Columns description
+#####################
+# ID - sample id in SRA database
+# disease - control, PD (Parkinson's disease), PDD (Parkinson's disease with dementia), DLB (dementia with Lewy bodies), MSA (multiple system atrophy)
+# tissue - BA9 prefrontal cortex, putamen, anterior cingulate cortex, SNc(substantia nigra pars compacta), VTA (ventral tegmental area)
+# sex - M (male), F (female)
+# age - the age of the patient (from 45 to 102, with NA values)
+# GC_content_quality - good, middle, bad (the quality according to FastQC reports)
+# SNCA_clin_mutations - mutations with unsertain significance in SNCA gene in format 1G>C (position previous nucleotide > current nucleotide)
+# LRRK2_clin_mutations - mutations with unsertain significance in LRRK2 gene in format 1G>C (position previous nucleotide > current nucleotide)
+# GBA_clin_mutations - mutations with unsertain significance in GBA gene in format 1G>C (position previous nucleotide > current nucleotide)
+# PRKN_clin_mutations - mutations with unsertain significance in PRKN gene in format 1G>C (position previous nucleotide > current nucleotide)
+# sample_id - sample id according to authors of the dataset (case/patient with number)
+# replicate - rep1, rep2, ... (if any)
+
+ID;disease;tissue;sex;age;GC_content_quality;SNCA_clin_mutations;LRRK2_clin_mutations;GBA_clin_mutations;PRKN_clin_mutations;sample_id;replicate
 SRR2015713;control;BA9 prefrontal cortex;M;73;good;;;;;C_2;
 SRR2015714;control;BA9 prefrontal cortex;M;91;middle;;;;;C_3;
 SRR2015715;control;BA9 prefrontal cortex;M;82;good;;;;;C_4;
@@ -73,38 +89,38 @@ SRR2015783;PD;BA9 prefrontal cortex;M;68;good;;;;;P_0134;
 SRR2015784;PD;BA9 prefrontal cortex;M;79;good;;;;;P_0135;
 SRR2015785;PD;BA9 prefrontal cortex;M;70;good;;;;;P_0136;
 ;;;;;;;;;;;
-SRR9703414;MSA;Putamen;F;63;bad;;;;;MSA1-1;rep1
-SRR9703415;MSA;Putamen;F;63;bad;;;;;MSA1-2;rep2
-SRR9703416;MSA;Putamen;F;63;middle;;;;;MSA2-1;rep1
-SRR9703417;MSA;Putamen;F;63;middle;;;;;MSA2-2;rep2
-SRR9703418;MSA;Putamen;F;61;bad;;;;;MSA3-1;rep1
-SRR9703419;MSA;Putamen;F;61;bad;;;;;MSA3-2;rep2
-SRR9703420;MSA;Putamen;F;69;bad;;;;;MSA4-1;rep1
-SRR9703421;MSA;Putamen;F;69;bad;;;;;MSA4-2;rep2
-SRR9703422;MSA;Putamen;M;66;middle;;40293626G>A ;;;MSA5-1;rep1
-SRR9703423;MSA;Putamen;M;66;middle;;40293626G>A ;;;MSA5-2;rep2
-SRR9703424;MSA;Putamen;M;74;bad;;;;;MSA6-1;rep1
-SRR9703425;MSA;Putamen;M;74;bad;;;;;MSA6-2;rep2
-SRR9703426;MSA;Putamen;F;59;middle;;;;;MSA7-1;rep1
-SRR9703427;MSA;Putamen;F;59;middle;;;;;MSA7-2;rep2
-SRR9703428;MSA;Putamen;M;56;bad;;;;;MSA8-1;rep1
-SRR9703429;MSA;Putamen;M;56;bad;;;;;MSA8-2;rep2
-SRR9703430;MSA;Putamen;F;56;bad;;;;;MSA9-1;rep1
-SRR9703431;MSA;Putamen;F;56;bad;;;;;MSA9-2;rep2
-SRR9703432;MSA;Putamen;F;70;bad;;;;;MSA10-1;rep1
-SRR9703433;MSA;Putamen;F;70;bad;;;;;MSA10-2;rep2
-SRR15527815;control;Putamen;M;NA;middle;;;;; Sample_145_Subject_1_Control;
-SRR15527816;control;Putamen;F;NA;middle;;;;161348405G>A;Sample_146_Subject_2_Control;
-SRR15527817;control;Putamen;F;NA;middle;;;;;Sample_147_Subject_3_Control;
-SRR15527822;control;Putamen;M;NA;middle;;;;;Sample_152_Subject_8_Control;
-SRR15527824;control;Putamen;M;NA;middle;;;;;Sample_154_Subject_10_Control;
-SRR15527825;control;Putamen;M;NA;middle;;40235634T>C;;;Sample_155_Subject_11_Control;
-SRR15527827;control;Putamen;M;NA;middle;;;;;Sample_157_Subject_13_Control;
-SRR15527829;control;Putamen;F;NA;middle;;;;;Sample_159_Subject_15_Control;
-SRR15527831;control;Putamen;M;NA;middle;;;;;Sample_161_Subject_17_Control;
-SRR15527833;control;Putamen;F;NA;middle;;;;161349208TATCTAT>TAT;Sample_163_Subject_19_Control;
-SRR15527834;control;Putamen;F;NA;middle;;;;;Sample_164_Subject_20_Control;
-SRR15527836;control;Putamen;F;NA;middle;;;;;Sample_166_Subject_22_Control;
+SRR9703414;MSA;putamen;F;63;bad;;;;;MSA1-1;rep1
+SRR9703415;MSA;putamen;F;63;bad;;;;;MSA1-2;rep2
+SRR9703416;MSA;putamen;F;63;middle;;;;;MSA2-1;rep1
+SRR9703417;MSA;putamen;F;63;middle;;;;;MSA2-2;rep2
+SRR9703418;MSA;putamen;F;61;bad;;;;;MSA3-1;rep1
+SRR9703419;MSA;putamen;F;61;bad;;;;;MSA3-2;rep2
+SRR9703420;MSA;putamen;F;69;bad;;;;;MSA4-1;rep1
+SRR9703421;MSA;putamen;F;69;bad;;;;;MSA4-2;rep2
+SRR9703422;MSA;putamen;M;66;middle;;40293626G>A ;;;MSA5-1;rep1
+SRR9703423;MSA;putamen;M;66;middle;;40293626G>A ;;;MSA5-2;rep2
+SRR9703424;MSA;putamen;M;74;bad;;;;;MSA6-1;rep1
+SRR9703425;MSA;putamen;M;74;bad;;;;;MSA6-2;rep2
+SRR9703426;MSA;putamen;F;59;middle;;;;;MSA7-1;rep1
+SRR9703427;MSA;putamen;F;59;middle;;;;;MSA7-2;rep2
+SRR9703428;MSA;putamen;M;56;bad;;;;;MSA8-1;rep1
+SRR9703429;MSA;putamen;M;56;bad;;;;;MSA8-2;rep2
+SRR9703430;MSA;putamen;F;56;bad;;;;;MSA9-1;rep1
+SRR9703431;MSA;putamen;F;56;bad;;;;;MSA9-2;rep2
+SRR9703432;MSA;putamen;F;70;bad;;;;;MSA10-1;rep1
+SRR9703433;MSA;putamen;F;70;bad;;;;;MSA10-2;rep2
+SRR15527815;control;putamen;M;NA;middle;;;;; Sample_145_Subject_1_Control;
+SRR15527816;control;putamen;F;NA;middle;;;;161348405G>A;Sample_146_Subject_2_Control;
+SRR15527817;control;putamen;F;NA;middle;;;;;Sample_147_Subject_3_Control;
+SRR15527822;control;putamen;M;NA;middle;;;;;Sample_152_Subject_8_Control;
+SRR15527824;control;putamen;M;NA;middle;;;;;Sample_154_Subject_10_Control;
+SRR15527825;control;putamen;M;NA;middle;;40235634T>C;;;Sample_155_Subject_11_Control;
+SRR15527827;control;putamen;M;NA;middle;;;;;Sample_157_Subject_13_Control;
+SRR15527829;control;putamen;F;NA;middle;;;;;Sample_159_Subject_15_Control;
+SRR15527831;control;putamen;M;NA;middle;;;;;Sample_161_Subject_17_Control;
+SRR15527833;control;putamen;F;NA;middle;;;;161349208TATCTAT>TAT;Sample_163_Subject_19_Control;
+SRR15527834;control;putamen;F;NA;middle;;;;;Sample_164_Subject_20_Control;
+SRR15527836;control;putamen;F;NA;middle;;;;;Sample_166_Subject_22_Control;
 ;;;;;;;;;;;
 SRR14808188;control;anterior cingulate cortex;M;68;middle;;;;;C036;
 SRR14808189;control;anterior cingulate cortex;M;68;bad;;;;;C048;
@@ -178,12 +194,12 @@ SRR7218336;control;SNc;M;58;bad;;;;;Case8;
 SRR7218337;control;VTA;M;58;bad;;;;;Case8;
 SRR7218338;control;SNc;M;59;middle;;;;;Case9;
 SRR7218339;control;VTA;M;59;bad;;;;;Case9;
-SRR13226963;PD;substantia nigra pars compacta;M;67;bad;;;;;Case19;
+SRR13226963;PD;SNc;M;67;bad;;;;;Case19;
 SRR13226964;PD;SNc;M;70;bad;;;;;Case20;
 SRR13226965;PD;SNc;F;77;bad;;;;;Case23;
 SRR13226966;PD;SNc;M;71;bad;;;;;Case21;
 SRR13226967;PD;SNc;M;74;bad;;;;;Case22;
-SRR13226968;PD;ventral tegmental area;M;67;bad;;;;;Case19;
+SRR13226968;PD;VTA;M;67;bad;;;;;Case19;
 SRR13226969;PD;VTA;F;77;bad;;;;;Case23;
 SRR13226970;PD;VTA;M;71;bad;;;;;Case21;
 SRR13226971;PD;VTA;M;74;bad;;;;;Case22;
