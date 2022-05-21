@@ -35,17 +35,17 @@ The workflow of the project is discussed below.
 #### Preparing the raw reads
 Raw reads in fastq format were downloaded to the server with SRA toolkit. The quality of raw reads was assessed in [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and summary reports were created in [MultiQC](https://multiqc.info/):
 
-[download_data_and_QC.sh](./download_data_and_QC.sh)
+[1_download_data_and_QC.sh](./1_download_data_and_QC.sh)
 
 #### Alignment
 STAR alignment against GRCh38 human genome was performed with resulting bam files and genecounts option:
 
-[alignment_to_reference.sh](./alignment_to_reference.sh)
+[2_alignment_to_reference.sh](./2_alignment_to_reference.sh)
 
 #### Variant calling & filtering
 mpileup was computed for sorted .bam files against GRCh38 human genome, followed by bcftools calling to generate .bcf files. Resulting .bcf files were filtered to obtain SNPs in SNCA, LRRK2, GBA, PRKN genes only:
 
-[variant_calling.sh](./variant_calling.sh)
+[3_variant_calling.sh](./3_variant_calling.sh)
 
 #### Constructing table with counts
 For each dataset a table with counts was constructed with R script from ReadsPerGene.out.tab files obtained after STAR alignment. Second columns corresponding to counts for non-stranded libraries were used. Two protocols were provided for technical replicates (if any), where they were summarized or averaged.
