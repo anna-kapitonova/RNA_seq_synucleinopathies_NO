@@ -110,13 +110,13 @@ EnhancedVolcano(resLFC2,
 sorted = resLFC2[with(resLFC2, order(svalue, -log2FoldChange)), ]
 sorted.df = data.frame("id"=rownames(sorted),sorted)
 genes = subset(sorted.df, svalue<0.005)
-write.table(genes, file="DE_genes_total_213215", sep="\t", col.names=NA, quote=FALSE)
+write.table(genes, file="DE_genes_total_213215.txt", sep="\t", col.names=NA, quote=FALSE)
 
 #Saves upregulated and downregulated genes
 genes_up = subset(genes, log2FoldChange > 0)
-write.table(genes_up, file="genes_up_213215", sep="\t", col.names=NA, quote=FALSE)
+write.table(genes_up, file="genes_up_213215.txt", sep="\t", col.names=NA, quote=FALSE)
 genes_down = subset(genes, log2FoldChange < 0)
-write.table(genes_down, file="genes_down_213215", sep="\t", col.names=NA, quote=FALSE)                             
+write.table(genes_down, file="genes_down_213215.txt", sep="\t", col.names=NA, quote=FALSE)                             
 
 #saves normalized counts 
 nc = counts(DataSetAnalysis, normalized = TRUE)
