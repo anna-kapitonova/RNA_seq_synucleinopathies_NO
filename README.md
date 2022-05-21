@@ -19,9 +19,9 @@ The following **tasks** were set in order to achive the goal:
 
 The **available data** at the start of the project were four open RNA-seq datasets of raw reads from different brain tissues of patients with synucleinopathies: 
 - SRP058181 - Brodmann area, prefrontal cortex, 42 control, 29 Parkinson's disease
-- SPR148970 - substantia nigra and ventral tegmental area midbrain dopamine neurons, 18 control, 5 Parkinson’s disease
+- SPR148970 - substantia nigra and ventral tegmental area midbrain dopamine neurons, 18 control, 5 Parkinson’s disease (Aguila *et al.*, 2021)
 - SRP215213 - putamen, 12 control, 10 multiple system atrophy
-- SRP324001 - anterior cingulate cortex, 7 control, 7 dementia with Lewy bodies, 7 Parkinson’s disease, 7 Parkinson’s disease with dementia
+- SRP324001 - anterior cingulate cortex, 7 control, 7 dementia with Lewy bodies, 7 Parkinson’s disease, 7 Parkinson’s disease with dementia (Feleke *et al.*, 2021)
 
 
 ### Workflow
