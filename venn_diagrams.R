@@ -1,7 +1,7 @@
 library(VennDiagram)
 library(RColorBrewer)
 
-### generate lists with all, up- and downregulated genes for all datasets
+### generate lists with DEG names for all datasets
 
 # SRP213215
 genes213215 <- read.table("/Users/anna/Desktop/BI/NO/results/Sasha/genes213215corr_replicates_as_sum.txt")
@@ -12,27 +12,15 @@ all_213215_MSA <- c(down_213215_MSA, up_213215_MSA)
 
 # SRP058181
 all_058181 <- read.table("/Users/anna/Desktop/BI/NO/results/Sasha/gene_names_058181all_corr.txt")[, 1]
-down_058181 <- read.table("/Users/anna/Desktop/BI/NO/results/Sasha/gene_names_058181down_corr.txt")[, 1]
-up_058181 <- read.table("/Users/anna/Desktop/BI/NO/results/Sasha/gene_names_058181up_corr.txt")[, 1]
 
 # SRP148970
 all_148970_SN <- read.table("/Users/anna/Desktop/BI/NO/results/SRP148970/average_replicates/DEG_SN_corrected.txt")[, 1]
 all_148970_VTA <- read.table("/Users/anna/Desktop/BI/NO/results/SRP148970/average_replicates/DEG_VTA_corrected.txt")[, 1]
-up_148970_SN <- read.table("/Users/anna/Desktop/BI/NO/results/SRP148970/average_replicates/genes_up_SN_corrected.txt")[, 1]
-up_148970_VTA <- read.table("/Users/anna/Desktop/BI/NO/results/SRP148970/average_replicates/genes_up_VTA_corrected.txt")[, 1]
-down_148970_SN <- read.table("/Users/anna/Desktop/BI/NO/results/SRP148970/average_replicates/genes_down_SN_corrected.txt")[, 1]
-down_148970_VTA <- read.table("/Users/anna/Desktop/BI/NO/results/SRP148970/average_replicates/genes_down_VTA_corrected.txt")[, 1]
 
 # SRP324001
 all_324001_PD <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/DEG_PD_corrected.txt")[, 1]
 all_324001_PDD <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/DEG_PDD_corrected.txt")[, 1]
 all_324001_DLB <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/DEG_DLB_corrected.txt")[, 1]
-up_324001_PD <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/genes_up_PD_corrected.txt")[, 1]
-up_324001_PDD <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/genes_up_PDD_corrected.txt")[, 1]
-up_324001_DLB <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/genes_up_DLB_corrected.txt")[, 1]
-down_324001_PD <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/genes_down_PD_corrected.txt")[, 1]
-down_324001_PDD <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/genes_down_PD_corrected.txt")[, 1]
-down_324001_DLB <- read.table("/Users/anna/Desktop/BI/NO/results/SRP324001/genes_down_PD_corrected.txt")[, 1]
 
 ### plot diagrams
 
